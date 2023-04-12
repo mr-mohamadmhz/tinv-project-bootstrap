@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap respansiv</title>
+
+    <link rel="stylesheet" href="CSS/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="CSS/stayls.css">
+    
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+<header class="container bg-heder">
+    <section class="w-100">
+
+      <section class="w-25 float-start mb-3 mt-3 heder-icon">
+        <ul class="text-decoration-none ps-2 m-0">
+            <li class="list-unstyled d-inline">
+                <a class="text-decoration-none" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <path id="ic_account_circle_24px" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2Zm0,3A3,3,0,1,1,9,8,3,3,0,0,1,12,5Zm0,14.2a7.2,7.2,0,0,1-6-3.22c.03-1.99,4-3.08,6-3.08s5.97,1.09,6,3.08A7.2,7.2,0,0,1,12,19.2Z" transform="translate(-2 -2)"/>
+                  </svg>
+                  </a>
+            </li>
+            <li class="list-unstyled d-inline ps-3">
+                <a class="text-decoration-none" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                    <path id="ic_public_24px" d="M12,2A10,10,0,1,0,22,12,10,10,0,0,0,12,2ZM11,19.93A7.988,7.988,0,0,1,4,12a8.118,8.118,0,0,1,.21-1.79L9,15v1a2.006,2.006,0,0,0,2,2Zm6.9-2.54A1.984,1.984,0,0,0,16,16H15V13a1,1,0,0,0-1-1H8V10h2a1,1,0,0,0,1-1V7h2a2.006,2.006,0,0,0,2-2V4.59a7.982,7.982,0,0,1,2.9,12.8Z" transform="translate(-2 -2)"/>
+                  </svg>
+                  </a>
+            </li>
+            <li class="list-unstyled d-inline ps-3">
+                <a class="text-decoration-none" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 18">
+                    <path id="ic_free_breakfast_24px" d="M20,3H4V13a4,4,0,0,0,4,4h6a4,4,0,0,0,4-4V10h2a2,2,0,0,0,2-2V5A1.993,1.993,0,0,0,20,3Zm0,5H18V5h2ZM4,19H20v2H4Z" transform="translate(-4 -3)"/>
+                  </svg>
+                  </a>
+            </li>
+        </ul>
+      </section>
+     
+
+      <section class="w-50 float-start mb-3 mt-3">
+        <ul dir="ltr" class="p-0 text-center m-0 menu-frst">
+            <li class="list-unstyled d-inline ps-3">
+                <a class="text-decoration-none font-monospace color-a a-hover" href="#">Home</a>
+            </li>
+            <li class="list-unstyled d-inline ps-3">
+                <a class="text-decoration-none font-monospace color-a a-hover" href="Login/login.html">Login</a>
+                <span>/</span>
+                <a class="text-decoration-none font-monospace color-a a-hover" href="SingUp/singup.html">SingUp</a>
+            </li>
+            <li class="list-unstyled d-inline ps-3">
+                <a class="text-decoration-none font-monospace color-a a-hover" href="#">Blog</a>
+            </li>
+            <li class="list-unstyled d-inline dropdown">
+                <a class="text-decoration-none font-monospace color-a a-hover dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" href="#">MenuSite</a>
+                <ul class="dropdown-menu text-end">
+                    <li><a class="dropdown-item color-a a-hover" href="#">menu sit 1</a></li>
+                    <li><a class="dropdown-item color-a a-hover" href="#">menu sit 2</a></li>
+                    <li><a class="dropdown-item color-a a-hover" href="#">menu sit 3</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item color-a a-hover" href="#">mr.mohamadmhz</a></li>
+                </ul>
+            </li>
+        </ul>
+        <button class="btn-burger" onclick="showmenu()" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="23" viewBox="0 0 18 12">
+            <path id="ic_menu_24px" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" transform="translate(-3 -6)"/>
+          </svg>
+          </button>
+        
+      </section>
+      
+
+      <section dir="ltr" class="w-25 float-end mb-3 mt-3 heder-logo">
+        <a href="#"> <img src="Image/logo-black.png" alt=""></a>
+      </section>
+      <section class="clear-fix"></section>
+    </section>
+</header>
+<section class="container">
+<ul dir="ltr" class="menu-ul p-0" id="menu">
+    <li class="menu-li"><a class="menu-li-a" href="#">NEWS</a></li>
+    <li class="menu-li"><a class="menu-li-a" href="#">GUIDES &amp; ANALYTICS</a></li>
+    <li class="menu-li"><a class="menu-li-a" href="#">EVENTS</a></li>
+    <li class="menu-li"><a class="menu-li-a" href="#">EXPLAINED</a></li>
+    <li class="menu-li"><a class="menu-li-a" href="#">ICON CLAEDER</a></li>
+</ul>
+</section>
+<section dir="ltr" class="container w-100 h-auto mt-5">
+    <section class="float-start w-50 h-450 padding-img section-img">
+        <section class="bg-phone"></section>
+    </section>
+    <section class="float-end w-50 h-450 section-text">
+        <section class="heder-content-left">
+             <h1>Take <span>Your</span><br>Tourname To The<br><span>Next Level</span></h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos maxime facilis rem sapiente sed impedit illum inventore, hic ab ipsa tempore voluptas accusamus ducimus explicabo numquam sequi quia?</p>
+
+             <p><span>Lorem</span> ipsum dolor sit adipisicing elit. <span>Suscipit quia atque eaque nobis</span> a unde consequatur vel incidunt error harum. Excepturi?</p>
+        </section>
+        <section>
+            <form class="w-100" action="">
+                <label class="pb-2" for="input-frst">Please Enter Email</label> <br>
+                <input class="input-w-75 p-1 input-email" id="input-frst" type="email" placeholder="Please Enter Email">
+                <button class="w-25 p-1 button-a" ><a class="text-decoration-none text-white" href="#">Singin</a></button>
+            </form>
+        </section>
+    </section>
+    <section class="clear-fix"></section>
+</section>
+<section class="clear-fix"></section>
+    <section dir="ltr" class="container cont-2 pb-5">
+        <h1 class="text-center font-monospace cont-2-h1">Featured In</h1>
+        <section class="row justify-content-center pt-5">
+            <section class="col-12 col-sm-3 text-center pb-4"><img src="Image/l1.png" alt=""></section>
+            <section class="col-12 col-sm-3 text-center pb-4"><img src="Image/l3.png" alt=""></section>
+            <section class="col-12 col-sm-3 text-center"><img src="Image/l5.png" alt=""></section>
+        </section>
+    </section>
+    <!-- card Box -->
+    <section class="container cont-3">
+        <h3 class="text-center pb-5 cont-3-h3 font-monospace">Benefits Of The Books Putview Has</h3>
+        <section class="row pb-5">
+            <section class="col-12 col-md-12 col-lg-6 position-relative ">
+                <h4 dir="ltr" class="font-monospace pb-3">
+                    Be The Best Player On The Field
+                </h4>
+                <div class="border-end border-primary border-3 pe-2">
+                <p dir="ltr" class="font-monospace mb-5 text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi velit, doloremque eaque, corporis eius perferendis, inventore quisquam alias mollitia ut nobispraesentium cumque modi. Atque in error reprehenderit est!
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum temporibus excepturi facilis cupiditate ut qui soluta minus recusandaemolestiae.
+                </p>
+            </div>
+                <form dir="ltr" class="cont-3-from pe-3" action="">
+                    <button class="cont-3-btn">RAED MORE</button>
+                </form>
+            </section>
+
+            <section class="col-12 col-md-12 col-lg-6 cont-col2">
+                <img class="cont-3-img" src="Image/galexi1.png" alt="">
+            </section>
+        </section>
+
+        <section class="row pb-5">
+            <section class="col-12 col-md-12 col-lg-6 cont-col2">
+                <img class="cont-3-img" src="Image/galexi1.png" alt="">
+            </section>
+            
+            <section class="col-12 col-md-12 col-lg-6 position-relative ">
+                <h4 dir="ltr" class="font-monospace pb-3">
+                    Be The Best Player On The Field
+                </h4>
+                <div class="border-end border-primary border-3 pe-2">
+                <p dir="ltr" class="font-monospace mb-5 text-muted">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt eligendi velit, doloremque eaque, corporis eius perferendis, inventore quisquam alias mollitia ut nobispraesentium cumque modi. Atque in error reprehenderit est!
+                    <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum temporibus excepturi facilis cupiditate ut qui soluta minus recusandaemolestiae.
+                </p>
+            </div>
+                <form dir="ltr" class="cont-3-from pe-3" action="">
+                    <button class="cont-3-btn">RAED MORE</button>
+                </form>
+            </section>
+        </section>
+    </section>
+
+   <footer dir="ltr" class="container bg-dark pb-3">
+    <section class="row g-3">
+        <div class="col-md-6">
+            <h1 class="text-line text-white">Footer Text Left</h1>
+            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita esse cum voluptate in aspernatur ipsum dolore natus facere assumenda fugiat ratione, aut quia quas quos doloremque quo modi molestias dicta.</p>
+        </div>
+        <div class="col-md-6">
+          <form action="">
+            <label class="pb-2 w-100 text-white" for="text">Please Enter text</label>
+            <input class="w-75 p-2 mb-2" type="text" placeholder="Enter text" id="text">
+            <label class="pb-2 w-100 text-white" for="email">Please Enter email</label>
+            <input class="w-50 p-2 mb-2" type="email" placeholder="Enter email" id="email">
+            <button class="w-25 p-2 button-a" ><a class="text-decoration-none text-white" href="#">Singin</a></button>
+          </form>
+        </div>
+    </section>
+   </footer>
+
+
+
+    <!-- javascript -->
+    <script type="text/javascript">
+
+        function showmenu() {
+         var x= document.getElementById('menu');
+         if (x.className==="menu-ul") {
+             x.className += " show";
+             console.log(1);
+         }
+         else{
+             x.className="menu-ul";
+             console.log(0);
+         }
+        }
+     
+     </script>
+
+
+
+<!--File : Bootstrap JS Bundel.min    -->
+<script src="JS/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
